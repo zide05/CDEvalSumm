@@ -8,11 +8,12 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ### Datasets and summarization systems
 + Datasets
-  1.CNN/Dailymail
-  2.Xsum
-  3.Pubmed
-  4.Bigpatent B
-  5.Reddit TIFU
-  
-  
+  - CNN/Dailymail
+  - Xsum
+  - Pubmed
+  - Bigpatent B
+  - Reddit TIFU
 + Summarization systems
+  - Extractive summarizers
+    1. LSTM_{non}
+  - Abstractive summarizers
