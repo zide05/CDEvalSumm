@@ -15,5 +15,32 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
   - Reddit TIFU
 + Summarization systems
   - Extractive summarizers
-    1. LSTM_{non}
+    1. $LSTM_{non}$
+    2. $Trans_{non}$
+    3. $Trans_{auto}$
+    4. $BERT_{non}$
+    5. $BERT_{match}$
   - Abstractive summarizers
+    1. $L2L_{ptr}^{cov}$
+    2. $L2L_{ptr}$
+    3. $L2L$
+    4. $T2T$
+    5. $BE2T$
+    6. $BART$
+
+### Evaluation metrics
++ Semantic Equivalenc (ROUGE)
++ Factuality (Factcc)
++ Dataset bias (Detailed explanation is displayed in our paper and the code can refer to xxx)
+  + Coverage
+  + Copy length
+  + Novelty
+  + Sentence fusion score
+  + Repetition
+
+### Cross-dataset measures
++ Stiffness
++ Stableness
+
+## Experiment Results
+
