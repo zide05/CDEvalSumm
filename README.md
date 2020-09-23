@@ -15,7 +15,7 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
   - Reddit TIFU
 + Summarization systems
   - Extractive summarizers
-    1. $LSTM_{non}$
+    1. ![](http://latex.codecogs.com/svg.latex?LSTM_{non})
     2. $Trans_{non}$
     3. $Trans_{auto}$
     4. $BERT_{non}$
