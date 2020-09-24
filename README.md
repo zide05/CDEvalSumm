@@ -8,12 +8,12 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ### Datasets and summarization systems
 + Datasets
-  - CNN/Dailymail
-  - Xsum
-  - Pubmed
-  - Bigpatent B
-  - Reddit TIFU
-+ Summarization systems (definition of model names can be referred to the paper)
+  - [CNN/Dailymail](https://arxiv.org/pdf/1602.06023.pdf)
+  - [Xsum](https://arxiv.org/pdf/1808.08745.pdf)
+  - [Pubmed](https://arxiv.org/pdf/1804.05685.pdf)
+  - [Bigpatent B](https://arxiv.org/pdf/1906.03741.pdf)
+  - [Reddit TIFU](https://arxiv.org/pdf/1811.00783.pdf)
++ Summarization systems (definition of model names can refer to the paper)
   - Extractive summarizers
    $LSTM_{non}$ , $Trans_{non}$ , $Trans_{auto}$ , $BERT_{non}$ , $BERT_{match}$ 
   
@@ -34,7 +34,8 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ### Cross-dataset measures
 + Stiffness
+<img src="https://render.githubusercontent.com/render/math?math=r^{\mu} = \frac{1}{N\times N}\sum_{i,j} {\mathbf{U}}_{ij}">
 + Stableness
-
+<img src="https://render.githubusercontent.com/render/math?math={r}^{\sigma} = \frac{1}{N\times N}\sum_{i,j} \mathbf{U}_{ij}/\mathbf{U}_{jj} \times 100\%">
 ## Experiment Results
 
