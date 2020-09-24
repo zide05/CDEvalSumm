@@ -1,24 +1,46 @@
-# Data-bias-metrics
-Data bias metrics:
+# CompSum
 
-* Novelty
-* Repetition
-* Coverage
-* Copy length
-* Sentence fusion score 
+Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems]()*
 
-Calling get_metrics in all_metrics.py to calculate the scores, the input of get_metrics are document samples list and prediction samples list, every sample has to be one list of sentences.
+### Two questions to explore
+**Q1**: How do different neural architectures of summarizers influence the cross-dataset generalization performances?<br>
+**Q2**: Do different generation ways (extractive and abstractive) of summarizers influence the cross-dataset generalization ability?
 
-```python
-from all_metrics import get_metrics
+### Datasets and summarization systems
++ Datasets
+  - CNN/Dailymail
+  - Xsum
+  - Pubmed
+  - Bigpatent B
+  - Reddit TIFU
++ Summarization systems
+  - Extractive summarizers
+    1. $LSTM_{non}$
+    2. $Trans_{non}$
+    3. $Trans_{auto}$
+    4. $BERT_{non}$
+    5. $BERT_{match}$
+  - Abstractive summarizers
+    1. $L2L_{ptr}^{cov}$
+    2. $L2L_{ptr}$
+    3. $L2L$
+    4. $T2T$
+    5. $BE2T$
+    6. $BART$
 
-doc_samples = [["marseille , france -lrb- cnn -rrb- the french prosecutor leading an investigation into the crash of germanwings flight 9525 insisted wednesday that he was not aware of any video footage from on board the plane .", "marseille prosecutor brice robin told cnn that `` so far no videos were used in the crash investigation . ''"]]
-pred_samples = [["marseille prosecutor says `` so far no videos were used in the crash investigation '' despite media reports .", "journalists at bild and paris match are `` very confident '' the video clip is real , an editor says .", "andreas lubitz had informed his lufthansa training school of an episode of severe depression , airline says ."]]
+### Evaluation metrics
++ Semantic Equivalenc (ROUGE)
++ Factuality (Factcc)
++ Dataset bias (Detailed explanation is displayed in our paper and the code can refer to xxx)
+  + Coverage
+  + Copy length
+  + Novelty
+  + Sentence fusion score
+  + Repetition
 
-print(get_metrics(doc_samples, pred_samples))
-```
+### Cross-dataset measures
++ Stiffness
++ Stableness
 
-The [code](https://github.com/Alex-Fabbri/Multi-News) of Coverage (metrics/fragment.py) is from passage [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://arxiv.org/pdf/1906.01749.pdf).
-
-We change the [code](https://github.com/ucfnlp/summarization-sing-pair-mix) of sentence fusion (metrics/ssi_functions.py and metrics/sent_fusion.py) (from passage: [Scoring Sentence Singletons and Pairs for Abstractive Summarization](https://arxiv.org/pdf/1906.00077.pdf).) partly to get the sentence fusion score. 
+## Experiment Results
 
