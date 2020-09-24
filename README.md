@@ -23,13 +23,13 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ### Evaluation metrics
 + Semantic Equivalenc (ROUGE)
-+ Factuality (Factcc) ([Evaluating the Factual Consistency of Abstractive Text Summarization](https://arxiv.org/pdf/1910.12840.pdf))
++ Factuality ([Factcc](https://arxiv.org/pdf/1910.12840.pdf)) 
 + Dataset bias (Detailed explanation is displayed in our paper and the code can refer to Data-bias-metrics/)
-  + Coverage ([NEWSROOM: A Dataset of 1.3 Million Summaries with Diverse Extractive Strategies](https://arxiv.org/pdf/1804.11283.pdf))
+  + [Coverage](https://arxiv.org/pdf/1804.11283.pdf) 
   + Copy length
-  + Novelty ([Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf))
-  + Repetition ([Get To The Point: Summarization with Pointer-Generator Networks](https://arxiv.org/pdf/1704.04368.pdf))
-  + Sentence fusion score ([Scoring Sentence Singletons and Pairs for Abstractive Summarization](https://arxiv.org/pdf/1906.00077.pdf))
+  + [Novelty](https://arxiv.org/pdf/1704.04368.pdf)
+  + [Repetition](https://arxiv.org/pdf/1704.04368.pdf)
+  + [Sentence fusion score](https://arxiv.org/pdf/1906.00077.pdf) 
   
 
 ### Cross-dataset measures
