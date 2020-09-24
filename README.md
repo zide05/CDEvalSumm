@@ -15,13 +15,11 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
   - Reddit TIFU
 + Summarization systems
   - Extractive summarizers
-  | $LSTM_{non}$ | $Trans_{non}$ | $Trans_{auto}$ | $BERT_{non}$ | $BERT_{match}$ |
+   $LSTM_{non}$ , $Trans_{non}$ , $Trans_{auto}$ , $BERT_{non}$ , $BERT_{match}$ 
   
   - Abstractive summarizers
-  | $L2L_{ptr}^{cov}$ | $L2L_{ptr}$ | $L2L$ | $T2T$ | $BE2T$ | $BART$ |
-     
-  
-    
+   $L2L_{ptr}^{cov}$ , $L2L_{ptr}$ , $L2L$ , $T2T$ , $BE2T$ , $BART$ 
+   
 
 ### Evaluation metrics
 + Semantic Equivalenc (ROUGE)
