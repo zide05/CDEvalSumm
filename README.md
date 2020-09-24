@@ -44,6 +44,6 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ## Experiment Results
 The stiffness and stableness of various summarizers are displayed below. For fine-grained results and comprehensive analysis please refer to the paper.
-<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/ROUGE_stiff_stable.PNG" width="300" height="330"><img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_stiff_stable.PNG" width="300" height="330"></div>
+<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/ROUGE_stiff_stable.PNG" width="300" height="330">          <img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_stiff_stable.PNG" width="300" height="330"></div>
 
 
