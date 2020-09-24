@@ -34,6 +34,6 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
 
 ### Cross-dataset measures
 + Stiffness  <img src="https://render.githubusercontent.com/render/math?math=r^{\mu} = \frac{1}{N\times N}\sum_{i,j} {\mathbf{U}}_{ij}">
-+ Stableness  <img src="https://render.githubusercontent.com/render/math?math=r^{\sigma} = \frac{1}{N\times N}\sum_{i,j} \mathbf{U}_{ij}/ \mathbf{U}_{jj}">
++ Stableness  <img src="https://render.githubusercontent.com/render/math?math=r^{\sigma} = \frac{1}{N\times N}\sum_{i,j} \mathbf{U}_{ij}/ \mathbf{U}_{jj}\times 100\%">
 ## Experiment Results
 
