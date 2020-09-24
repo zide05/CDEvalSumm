@@ -43,6 +43,6 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study
   <img src="https://render.githubusercontent.com/render/math?math={\mathbf{U}}_{ij}"> : the metric score when model is trained on dataset i and tested on dataset j.
 
 ## Experiment Results
-![]https://github.com/zide05/CompSUM/blob/master/figs/ROUGE_stiff_stable.PNG
-![]https://github.com/zide05/CompSUM/blob/master/figs/factcc_stiff_stable.PNG
-![]https://github.com/zide05/CompSUM/blob/master/figs/data_bias.PNG
+![this]https://github.com/zide05/CompSUM/blob/master/figs/ROUGE_stiff_stable.PNG<br>
+![this]https://github.com/zide05/CompSUM/blob/master/figs/factcc_stiff_stable.PNG<br>
+![this]https://github.com/zide05/CompSUM/blob/master/figs/data_bias.PNG
