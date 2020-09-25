@@ -3,7 +3,7 @@
 Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems]()*
 
 ### Motivation
-Try to understand model performance on different perspectives on cross-dataset setting. The right picture represent the main motivation (summarization systems get different rankings when evaluated under different measures)<br>
+<span width="50%">Try to understand model performance on different perspectives on cross-dataset setting. The right picture represent the main motivation (summarization systems get different rankings when evaluated under different measures)</span><br>
 <img src="https://github.com/zide05/CompSUM/blob/master/figs/model_ranking.PNG" width="300" height="330">
 
 
