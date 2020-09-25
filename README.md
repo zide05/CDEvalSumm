@@ -2,6 +2,10 @@
 
 Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems]()*
 
+### Motivation
+Try to understand model performance on different perspectives on cross-dataset setting. The picture below represent the main motivation (summarization systems get different rankings when evaluated under different measures):
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/model_ranking.PNG" width="300" height="330">
+
 ### Two questions to explore
 **Q1**: How do different neural architectures of summarizers influence the cross-dataset generalization performances?<br>
 **Q2**: Do different generation ways (extractive and abstractive) of summarizers influence the cross-dataset generalization ability?
