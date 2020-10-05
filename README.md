@@ -1,6 +1,6 @@
 # CDEvalSumm: Cross-Dataset Evaluation for Summarization
 
-Descriptions and metrics code for EMNLP2020 findings paper: *[An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems]()*
+Descriptions and metrics code for EMNLP2020 findings paper: *[CDEvalSumm: An Empirical Study of Cross-Dataset Evaluation for Neural Summarization Systems]()*
 
 ### Motivation
 Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures): <br><br>
