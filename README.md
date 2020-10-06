@@ -11,7 +11,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 **Q1**: How do different neural architectures of summarizers influence the cross-dataset generalization performances?<br>
 **Q2**: Do different generation ways (extractive and abstractive) of summarizers influence the cross-dataset generalization ability?
 
-## Datasets and summarization systems
+## Datasets and Summarization Systems
 + Datasets
   - [CNN/Dailymail](https://arxiv.org/pdf/1602.06023.pdf)
   - [Xsum](https://arxiv.org/pdf/1808.08745.pdf)
@@ -26,7 +26,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
    $L2L_{ptr}^{cov}$ , $L2L_{ptr}$ , $L2L$ , $T2T$ , $BE2T$ , $BART$ 
    
 
-## Evaluation metrics
+## Evaluation Metrics
 + Semantic Equivalenc (ROUGE)
 + Factuality ([Factcc](https://arxiv.org/pdf/1910.12840.pdf)) 
 + Dataset bias (Detailed explanation is displayed in our paper and the code can refer to Data-bias-metrics/)
@@ -37,7 +37,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
   + [Sentence fusion score](https://arxiv.org/pdf/1906.00077.pdf) 
   
 
-## Cross-dataset measures
+## Cross-dataset Measures
 + Stiffness 
   <br><br>
   <img src="https://render.githubusercontent.com/render/math?math=r^{\mu} = \frac{1}{N\times N}\sum_{i,j} {\mathbf{U}}_{ij}"> <br>
