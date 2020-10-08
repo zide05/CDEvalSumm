@@ -6,8 +6,8 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[CDEvalSumm: An Emp
 ## Motivation
 Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures): <br><br>
 
-<!--<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.pdf" width="300" height="260">-->
-<iframe src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.pdf" height="300" width="260"></iframe>
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="300" height="260">
+
 
 
 ## Two Research Questions
