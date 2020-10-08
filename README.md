@@ -52,6 +52,6 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 
 ## Experiment Results
 The stiffness and stableness of various summarizers are displayed below. For fine-grained results and comprehensive analysis please refer to the paper.
-<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/rouge_all.PNG" width="300" height="330">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_all.PNG" width="300" height="330"></div>
+<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/rouge_all.PNG" width="310" height="330">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_all.PNG" width="310" height="330"></div>
 
 
