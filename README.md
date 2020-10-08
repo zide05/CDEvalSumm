@@ -22,12 +22,10 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
   - [Bigpatent B](https://arxiv.org/pdf/1906.03741.pdf)
   - [Reddit TIFU](https://arxiv.org/pdf/1811.00783.pdf)
 + Summarization systems (definition of model names can refer to the paper)
-  - Extractive summarizers
-  <img src="https://render.githubusercontent.com/render/math?math=LSTM_{non}, Trans_{non}, Trans_{auto}, BERT_{non}, BERT_{match}">
+  - Extractive summarizers: <img src="https://render.githubusercontent.com/render/math?math=LSTM_{non}, Trans_{non}, Trans_{auto}, BERT_{non}, BERT_{match}">
   <!--$LSTM_{non}$ , $Trans_{non}$ , $Trans_{auto}$ , $BERT_{non}$ , $BERT_{match}$-->
   
-  - Abstractive summarizers
-  <img src="https://render.githubusercontent.com/render/math?math=L2L_{ptr}^{cov}, L2L_{ptr}, L2L, T2T, BE2T, BART">
+  - Abstractive summarizers: <img src="https://render.githubusercontent.com/render/math?math=L2L_{ptr}^{cov}, L2L_{ptr}, L2L, T2T, BE2T, BART">
   <!--$L2L_{ptr}^{cov}$ , $L2L_{ptr}$ , $L2L$ , $T2T$ , $BE2T$ , $BART$-->
    
 
