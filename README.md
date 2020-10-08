@@ -5,7 +5,7 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[CDEvalSumm: An Emp
 
 ## Motivation
 Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures): <br><br>
-<img src="https://github.com/zide05/CompSUM/blob/master/figs/model_ranking.PNG" width="300" height="330">
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking.PNG" width="300" height="330">
 
 
 ## Two Research Questions
@@ -50,6 +50,6 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 
 ## Experiment Results
 The stiffness and stableness of various summarizers are displayed below. For fine-grained results and comprehensive analysis please refer to the paper.
-<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/ROUGE_stiff_stable.PNG" width="300" height="330">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_stiff_stable.PNG" width="300" height="330"></div>
+<div align="center"><img src="https://github.com/zide05/CompSUM/blob/master/figs/rouge_all.PNG" width="300" height="330">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<img src="https://github.com/zide05/CompSUM/blob/master/figs/factcc_all.PNG" width="300" height="330"></div>
 
 
