@@ -4,7 +4,7 @@ Descriptions and metrics code for EMNLP2020 findings paper: *[CDEvalSumm: An Emp
 ([Yiran Chen](https://scholar.google.com/citations?hl=zh-CN&user=ZEnShlcAAAAJ), [Pengfei Liu](https://scholar.google.com/citations?hl=zh-CN&user=oIz_CYEAAAAJ), [Ming Zhong](https://scholar.google.com/citations?hl=zh-CN&user=mnifqeUAAAAJ), [Zi-Yi Dou](https://scholar.google.com/citations?hl=zh-CN&user=RWogNsEAAAAJ), [Danqing Wang](https://scholar.google.com/citations?hl=zh-CN&user=mAo_lUwAAAAJ), [Xipeng Qiu](https://scholar.google.com/citations?hl=zh-CN&user=Pq4Yp_kAAAAJ), [Xuanjing Huang](https://scholar.google.com/citations?hl=zh-CN&user=RGsMgZA4H78C))
 
 ## Motivation
-Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures): <br><br>
+Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures where abstractive models are red while extractive ones are blue): <br><br>
 
 <img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="300" height="180">
 
