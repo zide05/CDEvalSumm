@@ -23,10 +23,21 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
   - [Reddit TIFU](https://arxiv.org/pdf/1811.00783.pdf)
 + Summarization systems (definition of model names can refer to the paper)
   - Extractive summarizers
-   $LSTM_{non}$ , $Trans_{non}$ , $Trans_{auto}$ , $BERT_{non}$ , $BERT_{match}$ 
+  <img src="https://render.githubusercontent.com/render/math?math=LSTM_{non}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=Trans_{non}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=Trans_{auto}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=BERT_{non}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=BERT_{match}">
+  <!--$LSTM_{non}$ , $Trans_{non}$ , $Trans_{auto}$ , $BERT_{non}$ , $BERT_{match}$-->
   
   - Abstractive summarizers
-   $L2L_{ptr}^{cov}$ , $L2L_{ptr}$ , $L2L$ , $T2T$ , $BE2T$ , $BART$ 
+  <img src="https://render.githubusercontent.com/render/math?math=L2L_{ptr}^{cov}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=L2L_{ptr}">, 
+  <img src="https://render.githubusercontent.com/render/math?math=L2L">, 
+  <img src="https://render.githubusercontent.com/render/math?math=T2T">, 
+  <img src="https://render.githubusercontent.com/render/math?math=BE2T">,
+  <img src="https://render.githubusercontent.com/render/math?math=BART">
+  <!--$L2L_{ptr}^{cov}$ , $L2L_{ptr}$ , $L2L$ , $T2T$ , $BE2T$ , $BART$-->
    
 
 ## Evaluation Metrics
