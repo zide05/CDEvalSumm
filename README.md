@@ -9,7 +9,86 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 
 <img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="500" height="250">
 
-<table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:inherit;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:bottom;word-break:normal" colspan="2">Systems</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:bottom;word-break:normal">Paper</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:bottom;word-break:normal">Bib</th></tr></thead><tbody><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal" rowspan="5">Abs-Sum</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:bottom;word-break:normal">LSTM_{non}</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:left;vertical-align:bottom;word-break:normal">
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-bobw{font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-fll5{border-color:inherit;font-weight:bold;text-align:center;vertical-align:bottom}
+.tg .tg-j6zm{font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fll5" colspan="2">Systems</th>
+    <th class="tg-bobw">Paper</th>
+    <th class="tg-j6zm">Bib</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i" rowspan="5">Abs-Sum</td>
+    <td class="tg-7zrl">LSTM_{non}</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://arxiv.org/pdf/1810.12343.pdf"&gt;Content Selection in&nbsp;&nbsp;&nbsp;Deep Learning Models of Summarization&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D18-1208.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">Trans_non</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1908.08345.pdf"&gt;Text&nbsp;&nbsp;&nbsp;Summarization  with  Pretrained &nbsp;&nbsp;&nbsp;Encoders&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D19-1387.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">Trans_{auto}</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1907.03491.pdf"&gt;Searching&nbsp;&nbsp;&nbsp;for Effective  Neural  Extractive &nbsp;&nbsp;&nbsp;Summarization:  What  works and What’s Next&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/P19-1100.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">BERT_{non}</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1908.08345.pdf"&gt;Text&nbsp;&nbsp;&nbsp;Summarization  with  Pretrained &nbsp;&nbsp;&nbsp;Encoders&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D19-1387.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">BERT_{match}</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://arxiv.org/pdf/2004.08795.pdf"&gt;Extractive&nbsp;&nbsp;&nbsp;Summarization as Text Matching&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/2020.acl-main.552.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i" rowspan="6">Axt-Sum</td>
+    <td class="tg-7zrl">L2L^{cov}_{ptr}</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1704.04368.pdf"&gt;Get to the&nbsp;&nbsp;&nbsp;point: Summarization with Pointer-Generator Networks&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/P17-1099.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">L2L_{ptr}</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1704.04368.pdf"&gt;Get to the&nbsp;&nbsp;&nbsp;point: Summarization withpointer-generator networks&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/P17-1099.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">L2L</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://github.com/zide05/CDEvalSumm"&gt;CDEvalSumm: An&nbsp;&nbsp;&nbsp;Empirical Study of Cross-Dataset Evaluationfor Neural Summarization&nbsp;&nbsp;&nbsp;Systems&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://github.com/zide05/CDEvalSumm"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">T2T</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1908.08345.pdf"&gt;Text&nbsp;&nbsp;&nbsp;Summarization  with  Pretrained &nbsp;&nbsp;&nbsp;Encoders&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D19-1387.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">BE2T</td>
+    <td class="tg-7zrl">&lt;a href="https://arxiv.org/pdf/1908.08345.pdf"&gt;Text&nbsp;&nbsp;&nbsp;Summarization  with  Pretrained &nbsp;&nbsp;&nbsp;Encoders&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D19-1387.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">BART</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://arxiv.org/pdf/1810.12343.pdf"&gt;Bart:  Denoising &nbsp;&nbsp;&nbsp;Sequence-to-Sequence &nbsp;&nbsp;&nbsp;Pre-training for  Natural  Language &nbsp;&nbsp;&nbsp;Generation,  Translation,  and Comprehension&lt;/a&gt;</td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/2020.acl-main.703.bib"&gt;Bib&lt;/a&gt;</td>
+  </tr>
+</tbody>
+</table>
 
 
 
