@@ -7,7 +7,7 @@
 ## Motivation
 Many work evaluate summarization systems on in-domain setting (the model is trained and tested on the same dataset). In this work we try to understand model performance on different perspectives on a cross-dataset setting. The picture blow represents the main motivation (summarization systems get different rankings when evaluated under different measures where abstractive models are red while extractive ones are blue): <br><br>
 
-<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="300" height="180">
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="500" height="250">
 
 
 
