@@ -33,7 +33,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
   <tr>
     <td class="tg-wa1i" rowspan="5">Abs-Sum</td>
     <td class="tg-7zrl">LSTM_{non}</td>
-    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;<href="https://arxiv.org/pdf/1810.12343.pdf"&gt;Content Selection in&nbsp;&nbsp;&nbsp;Deep Learning Models of Summarization&lt;/a&gt;</a></td>
+    <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;<a href="https://arxiv.org/pdf/1810.12343.pdf"&gt;Content Selection in&nbsp;&nbsp;&nbsp;Deep Learning Models of Summarization&lt;/a&gt;</a></td>
     <td class="tg-7zrl">&lt;a&nbsp;&nbsp;&nbsp;href="https://www.aclweb.org/anthology/D18-1208.bib"&gt;Bib&lt;/a&gt;</td>
   </tr>
   <tr>
