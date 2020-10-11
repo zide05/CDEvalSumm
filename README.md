@@ -30,7 +30,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 
 ## Datasets
 
-<img src="https://github.com/zide05/CompSUM/blob/master/figs/spider.png" width="800" height="250">
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/spider.png" width="750" height="250">
 
 + Datasets
   - [CNN/Dailymail](https://arxiv.org/pdf/1602.06023.pdf)
