@@ -11,7 +11,7 @@ Many work evaluate summarization systems on in-domain setting (the model is trai
 **Q1**: How do different neural architectures of summarizers influence the cross-dataset generalization performances?<br>
 **Q2**: Do different generation ways (extractive and abstractive) of summarizers influence the cross-dataset generalization ability?
 
-<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="500" height="250">
+<img src="https://github.com/zide05/CompSUM/blob/master/figs/ranking6.png" width="450" height="250">
 
 
 ## Evaluation Systems
